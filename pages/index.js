@@ -3,7 +3,7 @@ import Contact from "../components/contact";
 import Experience from "../components/experience";
 import NavBar from "../components/navbar";
 import Personal from "../components/personal";
-import Project from "../components/Projects";
+import Project from "../components/projects";
 
 export default function Home() {
   return (
