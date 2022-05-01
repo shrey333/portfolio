@@ -2,7 +2,7 @@ export const PROJECTS = [
   {
     projectName: "UniCollab",
     projectDescription:
-      "UniCollab is made for ease of sharing educational resources(like classroom material, upcoming announcements and assignments) between teachers and students.",
+      "UniCollab is made for ease of sharing educational resources(like classroom material, upcoming announcements, and assignments) between teachers and students.",
     projectLink: "https://github.com/shrey333/UniCollab",
     projectTechnologies: ["Flutter", "Firebase"],
   },

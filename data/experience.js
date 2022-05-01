@@ -23,7 +23,7 @@ export const EXPERIENCE = [
   {
     companyName: "LG CSR's Shabdamitra project",
     companyDescription: [
-      "Shabdamitra is learning aid project developed by IIT-Bombay and LG India(CSR team)",
+      "Shabdamitra is a learning aid project developed by IIT-Bombay and LG India(CSR team)",
       "Developed easy to use and offline android application",
       "Worked on migration of MySQL to SQLite database",
       "Worked specifically on making UI intuitive and user friendly",

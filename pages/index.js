@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Shrey</title>
+        <title>Shrey Bhadiyadara - Full Stack Developer</title>
         <meta name="robots" content="follow, index" />
         <link
           rel="icon"

@@ -36,7 +36,13 @@ export default function Contact() {
             </a>
           </li>
           <li className="md:ml-1 mr-3 hover:underline">
-            <a>Resume</a>
+            <a
+              href="/pdfs/ShreyBhadiyadaraResume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
           </li>
         </ul>
       </section>
