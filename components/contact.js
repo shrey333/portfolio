@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <>
-      <section id="contact" className="mt-20 mb-20">
+      <section id="contact" className="my-20">
         <div className="text-left">
           <h2 className="text-3xl md:text-4xl font-bold animate-move-bg bg-gradient-to-r from-purple-500 via-red-500 to-purple-500 bg-[length:400%] bg-clip-text text-transparent">
             Contact

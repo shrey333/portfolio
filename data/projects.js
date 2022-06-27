@@ -14,17 +14,18 @@ export const PROJECTS = [
     projectTechnologies: ["Angular", "NodeJS", "ExpressJS", "MongoDB"],
   },
   {
+    projectName: "Online Book Service",
+    projectDescription:
+        "Online Book Service allows users to either buy or read or publish books online. It also allows users to search for books. It uses custom Pdfjs renderer to render pdfs.",
+    projectLink: "https://github.com/shrey333/Online-Book-Service",
+    projectTechnologies: ["Spring Boot", "JSP", "PDF.JS"],
+  },
+  {
     projectName: "TechFest",
     projectDescription:
       "TechFest is a platform where universities can organize their technical festival and students from various universities can participate in the events.",
     projectLink: "https://github.com/shrey333/TechFest",
     projectTechnologies: ["Django", "MySQL"],
   },
-  {
-    projectName: "Online Book Service",
-    projectDescription:
-      "Online Book Service allows users to either buy or read or publish books online. It also allows users to search for books. It uses custom Pdfjs renderer to render pdfs.",
-    projectLink: "https://github.com/shrey333/Online-Book-Service",
-    projectTechnologies: ["Spring Boot", "JSP", "PDFJS"],
-  },
+
 ];
