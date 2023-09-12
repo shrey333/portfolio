@@ -23,7 +23,7 @@ export default function Project() {
                                     <p className="text-sm md:text-base font-normal text-gray-900 dark:text-gray-300">
                                         {item.projectDescription}
                                     </p>
-                                    <ul className="flex md:justify-start text-xs md:text-sm mt-3 font-semibold">
+                                    <ul className="flex flex-wrap md:justify-start text-xs md:text-sm mt-3 font-semibold">
                                         {item.projectTechnologies.map((tech, index) => {
                                             return (
                                                 <li key={tech} className="md:ml-1 mr-3">
