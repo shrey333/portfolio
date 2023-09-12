@@ -12,7 +12,7 @@ export default function Project() {
                 {PROJECTS.map((item, index) => {
                     return (
                         <div
-                            key={item}
+                            key={item.projectLink}
                             className="hover:shadow-lg focus:shadow-lg mb-5 flex flex-col border border-gray-400 hover:ring-gray-600 hover:ring dark:border-gray-600 dark:hover:ring-gray-300 dark:hover:ring rounded-lg mt-5"
                         >
                             <a href={item.projectLink} target="_blank" rel="noreferrer">

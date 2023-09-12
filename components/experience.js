@@ -12,7 +12,7 @@ export default function Experience() {
                 {EXPERIENCE.map((item, index) => {
                     return (
                         <div
-                            key={item}
+                            key={item.companyLink}
                             className="hover:shadow-lg focus:shadow-lg mb-5 flex flex-col border border-gray-400 hover:ring-gray-600 hover:ring dark:border-gray-600 dark:hover:ring-gray-300 dark:hover:ring rounded-lg mt-5"
                         >
                             <a href={item.companyLink} target="_blank" rel="noreferrer">
@@ -38,7 +38,7 @@ export default function Experience() {
                                     <ul className="flex flex-wrap md:justify-start text-xs md:text-sm mt-3 font-semibold">
                                         {item.companyTechnologies.map((tech, index) => {
                                             return (
-                                                <li key={tech} className="md:ml-1 mr-3">
+                                                <li key={`${tech}-${index}`} className="md:ml-1 mr-3">
                                                     <i>{tech}</i>
                                                 </li>
                                             );

@@ -11,7 +11,7 @@ export const PROJECTS = [
         projectDescription:
             "Utilized Firebase authentication to enable role-based access control for students and educators, enhancing security and ensuring appropriate application access; Implemented robust push notifications utilizing Material UI components and Firebase Cloud Messaging, ensuring seamless and reliable delivery of exam and announcement updates; Developed a quiz timeout system using Cloud Functions and stored data through a NoSQL Cloud Firestore database",
         projectLink: "https://github.com/shrey333/UniCollab",
-        projectTechnologies: ["Flutter", "Firebase", "Cloud Messaging", "Cloud Messaging", "Firestore", "GetX", "Material UI"],
+        projectTechnologies: ["Flutter", "Firebase", "Cloud Firestore", "Cloud Messaging", "GetX", "Material UI"],
     },
     {
         projectName: "Book Rental System",
