@@ -7,7 +7,7 @@ export const EXPERIENCE = [
             "Implemented AlpineJS to improve code readability and UI reactivity by 20%, reducing code duplication by 11%",
             "Leveraged tools/technologies like Sentry, Unsplash API, Solr, Docker, and Webflow to enhance application functionalities like optimizing Solr schema for faster search results by 15% and implementing viewport-based image loading",
             "Enhanced UI/UX, SEO, accessibility, and performance metrics by leveraging HTML, Sass, CSS, and JavaScript, substantially improving Lighthouse scores by 100%",
-            "Designed and deployed an internal dashboard application using Django Rest Framework, React, Redux, tailwind CSS, and AWS, implementing GitHub Actions CI/CD, saving over 30 minutes of manual deployment time",
+            "Designed and deployed an internal dashboard application using Django Rest Framework, React, Redux, Tailwind CSS, Vite, Jest, and AWS, implementing GitHub Actions CI/CD, saving over 30 minutes of manual deployment time",
             "Engineered a dynamic viewport-based text calculator implementing binary search algorithm for generating visually appealing site headers of more than 4.5k journals, conferences and repositories sites",
             "Optimized page loading speed by utilizing Memcached and implementing JavaScript asynchronous execution, resulting in a remarkable 25% improvement in overall website performance"
         ],
@@ -31,8 +31,8 @@ export const EXPERIENCE = [
             "Streamlined customer experience by implementing automated data entry processes using Node.js REST API, React, and GraphQL, leading to a 60% reduction in manual entry effort and time required in accounting software like Tally\n",
             "Led the migration of TallyWiz, a former brand, to the Suvit platform, ensuring uninterrupted user service",
             "Implemented real-time functionality using Socket.io for seamless updates within the application to meet customer demands, saving over 20% API calls to the server and client-side refreshes",
-            "Collaborated with cross-functional team members to design and implement robust auth and user profile management with Redux and MongoDB database, allowing for login functionality and user onboarding with optimized clickthrough rate",
-            "Optimized application performance by reducing the average loading time, from over 2 seconds to below 0.8 seconds, when rendering a large dataset of 10,000 rows",
+            "Collaborated with cross-functional team members to design and implement robust auth and user profile management with Redux and MongoDB database, allowing for login functionality and user onboarding with optimized click-through rate",
+            "Optimized application performance by reducing the average loading time, from over 2 seconds to below 0.8 seconds by memoizing function calls, reduced API payload, and React best practices, when rendering a large dataset of 10,000 rows",
             "Integrated D3.js for data visualization of 10,000 rows and utilized Intercom for efficient customer query resolution, resulting in enhanced data presentation and a streamlined customer support process"
         ],
         companyLink: "https://www.suvit.io/",
