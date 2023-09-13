@@ -2,7 +2,7 @@ export const EXPERIENCE = [
     {
         companyName: "Neliti Pte. Ltd.",
         companyDescription: [
-            "Leveraged Django, Docker, Celery, and Postgres and utilized HTML, CSS, Sass, and JavaScript to develop responsive a web application with 12+ million monthly user traffic" +
+            "Leveraged Django, Docker, Celery, and Postgres and utilized HTML, CSS, Sass, and JavaScript to develop responsive a web application with 12+ million monthly user traffic",
             "Developed an internal page builder that significantly reduced average developer time by 70% by providing readily available static pages and also developed Neliti Advertisement platform leveraging Compact Serving method for ads allocation",
             "Implemented AlpineJS to improve code readability and UI reactivity by 20%, reducing code duplication by 11%",
             "Leveraged tools/technologies like Sentry, Unsplash API, Solr, Docker, and Webflow to enhance application functionalities like optimizing Solr schema for faster search results by 15% and implementing viewport-based image loading",
@@ -28,7 +28,7 @@ export const EXPERIENCE = [
     {
         companyName: "Suvit Fintech Pvt. Ltd.",
         companyDescription: [
-            "Streamlined customer experience by implementing automated data entry processes using Node.js REST API, React, and GraphQL, leading to a 60% reduction in manual entry effort and time required in accounting software like Tally\n",
+            "Streamlined customer experience by implementing automated data entry processes using Node.js REST API, React, and GraphQL, leading to a 60% reduction in manual entry effort and time required in accounting software like Tally",
             "Led the migration of TallyWiz, a former brand, to the Suvit platform, ensuring uninterrupted user service",
             "Implemented real-time functionality using Socket.io for seamless updates within the application to meet customer demands, saving over 20% API calls to the server and client-side refreshes",
             "Collaborated with cross-functional team members to design and implement robust auth and user profile management with Redux and MongoDB database, allowing for login functionality and user onboarding with optimized click-through rate",
