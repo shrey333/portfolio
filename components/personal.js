@@ -9,9 +9,9 @@ export default function Personal() {
                     <h3 className="text-xl sm:text-3xl text-semibold">
                         I&apos;m{" "}
                         <span className="underline text-bold decoration-gray-900 dark:decoration-gray-300">
-              Shrey Bhadiyadara
-            </span>
-                        , a full-stack developer based in Tempe, Arizona. Welcome to my
+                          Shrey Bhadiyadara
+                        </span>
+                        , a Software Engineer based in Tempe, Arizona. Welcome to my
                         site! I&apos;m glad that you are here.
                     </h3>
                 </div>
