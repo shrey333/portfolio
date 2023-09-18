@@ -2,14 +2,17 @@ export const PROJECTS = [
     {
         projectName: "Queuing WebApp(The Queue Platform)",
         projectDescription:
-            "Leveraged Socket.io to develop a real-time queue management system for the purpose of optimizing social distancing measures during the COVID-19 pandemic; Utilized Geolocation API for real-time congestion notifications and personalized shop recommendations within a 15-mile radius, enhancing customer experience and shop selection; Employed RxJS for the systematic management of user and shop state, resulting in a 25% reduction in API calls forupdates and an attendant enhancement of user experience (UX) by 27%",
+            "Created a real-time queue system with Socket.io for COVID-19 distancing optimization; " +
+            "Implemented Geolocation API for congestion notifications and shop recommendations within a 15-mile radius; " +
+            "Used RxJS for systematic user and shop state management, cutting API calls by 25%, enhancing UX by 27%",
         projectLink: "https://github.com/shrey333/thequeue",
         projectTechnologies: ["Angular", "NodeJS", "ExpressJS", "MongoDB", "BootStrap", "RxJS", "GeoLocation API", "Socket.io"],
     },
     {
         projectName: "UniCollab",
         projectDescription:
-            "Utilized Firebase authentication to enable role-based access control for students and educators, enhancing security and ensuring appropriate application access; Implemented robust push notifications utilizing Material UI components and Firebase Cloud Messaging, ensuring seamless and reliable delivery of exam and announcement updates; Developed a quiz timeout system using Cloud Functions and stored data through a NoSQL Cloud Firestore database",
+            "Leveraged Firebase authentication for role-based access control and implemented reliable push notifications; " +
+            "Built quiz timeout system with Cloud Functions and NoSQL Firestore, enhancing exam management efficiency",
         projectLink: "https://github.com/shrey333/UniCollab",
         projectTechnologies: ["Flutter", "Firebase", "Cloud Firestore", "Cloud Messaging", "GetX", "Material UI"],
     },

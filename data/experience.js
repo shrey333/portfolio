@@ -2,13 +2,13 @@ export const EXPERIENCE = [
     {
         companyName: "Neliti Pte. Ltd.",
         companyDescription: [
-            "Leveraged Django, Docker, Celery, and Postgres and utilized HTML, CSS, Sass, and JavaScript to develop responsive a web application with 12+ million monthly user traffic",
-            "Developed an internal page builder that significantly reduced average developer time by 70% by providing readily available static pages and also developed the Neliti Advertisement platform leveraging the Compact Serving method for ad allocation",
-            "Implemented AlpineJS to improve code readability and UI reactivity by 20%, reducing code duplication by 11%",
-            "Leveraged tools/technologies like Sentry, Unsplash API, Solr, Docker, and Webflow to enhance application functionalities like optimizing Solr schema for faster search results by 15% and implementing viewport-based image loading",
-            "Enhanced UI/UX, SEO, accessibility, and performance metrics by leveraging HTML, Sass, CSS, and JavaScript, substantially improving Lighthouse scores by 100%",
-            "Designed and deployed an internal dashboard application using Django Rest Framework, React, Redux, Tailwind CSS, Vite, Jest, and AWS, implementing GitHub Actions CI/CD, saving over 30 minutes of manual deployment time",
-            "Engineered a dynamic viewport-based text calculator implementing a binary search algorithm for generating visually appealing site headers of more than 4.5k journal, conference and repository sites",
+            "Employed Django, Docker, Celery, and Postgres while harnessing HTML, CSS, Sass, and JavaScript to craft a responsive web application with 12+ million monthly user traffic",
+            "Engineered an internal page builder that reduced developer time by 70%, providing ready-made static pages and developing the Neliti Advertisement platform with Compact Serving for ad allocation",
+            "Introduced AlpineJS for 20% better code readability and UI reactivity, leading to an 11% code reduction",
+            "Leveraged tools like Sentry, Unsplash API, Solr, Docker, and Webflow to enhance application functionalities, notably optimizing the Solr schema for 15% faster search results and implementing viewport-based image loading",
+            "Elevated UI/UX, SEO, accessibility, and performance metrics by leveraging HTML, Sass, CSS, and JavaScript, leading to a substantial 100% improvement in Lighthouse scores",
+            "Designed and deployed an internal dashboard application with Django Rest Framework, React, Redux, Tailwind CSS, Vite, Jest, AWS, and GitHub Actions CI/CD, saving over 30 minutes per manual deployment",
+            "Engineered an interactive text calculator using a viewport-based binary search for appealing site headers",
             "Optimized page loading speed by utilizing Memcached and implementing JavaScript asynchronous execution, resulting in a remarkable 25% improvement in overall website performance"
         ],
         companyLink: "https://www.neliti.com/",
@@ -28,12 +28,11 @@ export const EXPERIENCE = [
     {
         companyName: "Suvit Fintech Pvt. Ltd.",
         companyDescription: [
-            "Streamlined customer experience by implementing automated data entry processes using Node.js REST API, React, and GraphQL, leading to a 60% reduction in manual entry effort and time required in accounting software like Tally",
-            "Led the migration of TallyWiz, a former brand, to the Suvit platform, ensuring uninterrupted user service",
-            "Implemented real-time functionality using Socket.io for seamless updates within the application to meet customer demands, saving over 20% API calls to the server and client-side refreshes",
-            "Collaborated with cross-functional team members to design and implement robust auth and user profile management with Redux and MongoDB database, allowing for login functionality and user onboarding with optimized click-through rate",
-            "Optimized application performance by reducing the average loading time, from over 2 seconds to below 0.8 seconds when rendering a large dataset of 10,000 rows by memoizing function calls, reduced API payload, and React best practices",
-            "Integrated D3.js for data visualization of 10,000 rows and utilized Intercom for efficient customer query resolution, resulting in enhanced data presentation and a streamlined customer support process"
+            "Revamped the customer experience by automating data entry processes using Node.js REST API, React, and GraphQL, leading to a 60% reduction in manual entry effort and time required in accounting software like Tally",
+            "Introduced real-time functionality using Socket.io for seamless updates within the application, resulting in a 20% reduction in API calls to the server and client-side refreshes",
+            "Collaborated with cross-functional team members to architect and implement robust authentication and user profile management using Redux and a MongoDB database, leading to boosted click-through rates for user onboarding",
+            "Enhanced application performance, reducing average loading time from over 2 seconds to under 0.8 seconds, with memoized calls, fine-tuned payloads, and React best practices",
+            "Integrated D3.js for data visualization of 10,000 rows and harnessed Intercom for efficient customer query resolution, resulting in improved data presentation and a streamlined customer support process"
         ],
         companyLink: "https://www.suvit.io/",
         companyTechnologies: [
