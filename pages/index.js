@@ -38,7 +38,7 @@ export default function Home() {
                 <Experience/>
                 <Project/>
                 <Contact/>
-                <p className="mb-10">Last updated: August 12th, 2023</p>
+                <p className="mb-10">Last updated: September 17th, 2023</p>
             </section>
         </>
     );
