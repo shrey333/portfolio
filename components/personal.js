@@ -11,9 +11,8 @@ export default function Personal() {
             <span className="underline text-bold decoration-gray-900 dark:decoration-gray-300">
               Shrey Bhadiyadara
             </span>
-            , a Software Engineer based in Tempe, Arizona. Skilled in
-            JavaScript, Python, ReactJS, and Django. I enjoy hiking and
-            adventurous activities outside of work.
+            , a Software Engineer skilled in JavaScript, Python, ReactJS, and
+            Django. I enjoy hiking and adventurous activities outside of work.
           </h3>
         </div>
       </section>
