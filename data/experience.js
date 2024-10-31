@@ -2,13 +2,12 @@ export const EXPERIENCE = [
   {
     companyName: "Neliti Pte. Ltd.",
     companyDescription: [
-      "Employed Django, Docker, Celery, and Postgres while harnessing HTML, CSS, Sass, TypeScript, and JavaScript (React) to craft a responsive web application with 12+ million monthly user traffic",
-      "Reinforced test-driven development(TDD) system by writing unit and integration tests with 85% code coverage using PyTest and Jest adhering to SDLC and Agile methodology in a fast-paced production cycle",
-      "Replaced Solr-based search system with ElasticSearch and Kibana, reducing latency by 70%, ensuring optimal cost and performance, and optimized data processing flow with Kafka queue integration",
-      "Designed Kubernetes infrastructure via Terraform for containerized service deployment, saving 4 dev hours/release during migration from host-based to containerized environment",
-      "Implemented an efficient build pipeline utilizing Shell scripting, GitHub CI/CD, and Ansible, resulting in a significant reduction in feature release time from 2 weeks to 4 days",
-      "Improved dashboard efficiency by 30% through the implementation of Memcached as a caching layer",
-      "Built and deployed overall service into cloud infrastructure utilizing several AWS stacks (Including EC2, S3, EKS, Fargate, Route 53, CloudFront, Cognito, CDN77, and CloudWatch)",
+      "Developed and automated deployment for distributed systems with Django, Docker, and PostgreSQL, streamlining data flow and reducing bug reports by simplifying testing practices",
+      "Led development as the founding engineer of Neliti Dashboard, utilizing React, Next.js, TailwindCSS, and TypeScript for a responsive and scalable frontend, and Django Rest Framework(DRF) for building a backend",
+      "Improved search efficiency for 12 million users by transitioning data processing from Solr to Elasticsearch, leveraging AWS SQS to enhance search performance by reducing query time",
+      "Enhanced frontend performance of the core product by integrating Memcached and AlpineJS, resulting in a smoother user experience and improved SEO, which increased code readability and future maintainability",
+      "Implemented Kubernetes infrastructure with Terraform, AWS EKS, and Fargate, automating CI/CD with GitHub Actions and Ansible, reducing errors and cutting deployment time by 2 hrs per release",
+      "Built an internal page builder to streamline content creation and launched Neliti’s ad platform, increasing annual ad revenue by over $100K",
     ],
     companyLink: "https://www.neliti.com/",
     companyTechnologies: [
@@ -17,6 +16,8 @@ export const EXPERIENCE = [
       "Redux",
       "Docker",
       "Solr",
+      "Elasticsearch",
+      "TypeScript",
       "Sentry",
       "AlpineJS",
       "tailwind CSS",
@@ -29,11 +30,10 @@ export const EXPERIENCE = [
   {
     companyName: "Suvit Fintech Pvt. Ltd.",
     companyDescription: [
-      "Revamped the customer experience by automating data entry processes using Node.js, Express.js, React, and GraphQL, leading to a 60% reduction in manual entry effort and time required in accounting software like Tally",
-      "Introduced real-time functionality using Socket.io for seamless updates within the application, resulting in a 20% reduction in API calls to the server and client-side refreshes",
-      "Optimized performance of UI interface by 20% and reduced API calls by caching API responses with the introduction of Redux framework leading seamless UI/UX",
-      "Developed a scalable GraphQL API with Node.js, reducing response times by 20% and bandwidth usage by 30%",
-      "Integrated D3.js for data analytics of more than 10000 rows of financial and harnessed Intercom for efficient customer query resolution, resulting in improved data presentation and a streamlined customer support process",
+      "Automated data entry workflows for accounting software using Node.js, React, DynamoDB, and GraphQL, which reduced manual data entry efforts and processed over 10,000 rows in under two minutes",
+      "Enhanced real-time updates and team communication by integrating Socket.io and Intercom, decreasing loading times and providing a more responsive user experience",
+      "Improved UI responsiveness by 20% through Redux for state management and caching API responses, reducing load on the server and supporting a seamless user experience",
+      "Developed a scalable GraphQL API with Node.js and Relay, decreasing response times and bandwidth usage, and collaborated with backend teams to optimize data retrieval strategies",
     ],
     companyLink: "https://www.suvit.io/",
     companyTechnologies: [
@@ -41,7 +41,7 @@ export const EXPERIENCE = [
       "Redux",
       "NodeJS",
       "ExpressJS",
-      "MongoDB",
+      "DynamoDB",
       "GraphQL",
       "D3.js",
       "Socket.io",
