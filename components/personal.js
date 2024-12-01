@@ -1,19 +1,57 @@
 export default function Personal() {
+  const interests = ["🏃‍♂️ Hiking Enthusiast", "🎧 Music & Coding", "📚 Tech Explorer"];
+
   return (
     <>
       <section>
-        <div className="text-left">
-          <h2 className="text-8xl sm:text-9xl font-bold animate-move-bg bg-gradient-to-r from-purple-800 via-red-500 to-purple-800 bg-[length:400%] bg-clip-text text-transparent">
-            Hi there!
-          </h2>
-          <h3 className="text-xl sm:text-3xl text-semibold">
-            I&apos;m{" "}
-            <span className="underline text-bold decoration-gray-900 dark:decoration-gray-300">
-              Shrey Bhadiyadara
+        <div className="flex flex-col gap-6">
+          <div>
+            <p className="text-2xl sm:text-4xl font-bold">
+              Hey, I'm{" "}
+              <span className="text-blue-600 dark:text-blue-400">
+                Shrey Bhadiyadara
+              </span>{" "}
+              — Software Engineer
+            </p>
+          </div>
+
+          <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-400">
+            Crafting AI-powered cloud solutions that scale
+          </p>
+
+          <div className="flex flex-wrap gap-3">
+            <span className="text-gray-700 dark:text-gray-300">🤖 AI/ML</span>
+            <span className="text-gray-700 dark:text-gray-300">☁️ Cloud</span>
+            <span className="text-gray-700 dark:text-gray-300">🛠️ DevOps</span>
+            <span className="text-gray-700 dark:text-gray-300">
+              💻 Full Stack
             </span>
-            , a Software Engineer skilled in JavaScript, Python, ReactJS, and
-            Django. I enjoy hiking and adventurous activities outside of work.
-          </h3>
+          </div>
+
+          <div className="flex flex-col gap-4 mt-2">
+            <p className="text-gray-600 dark:text-gray-400">
+              Beyond coding, I'm an avid hiker who finds inspiration in nature's patterns. 
+              When I'm not on the trails, you'll find me debugging with my curated playlist 
+              — because every bug fix deserves its own soundtrack. 🎵
+            </p>
+            
+            <p className="text-gray-600 dark:text-gray-400">
+              I'm passionate about staying at the forefront of technology. Whether it's exploring 
+              the latest AI breakthroughs, cloud architectures, or emerging tech trends, 
+              I'm always eager to learn and adapt. 🚀
+            </p>
+
+            <div className="flex flex-wrap gap-2 mt-4">
+              {interests.map((interest, index) => (
+                <span
+                  key={index}
+                  className="px-3 py-1 text-sm rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400"
+                >
+                  {interest}
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
     </>

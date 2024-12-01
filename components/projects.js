@@ -3,54 +3,67 @@ import { PROJECTS } from "../data/projects";
 export default function Project() {
   return (
     <>
-      <section id="projects" className="my-20 scroll-mt-32">
-        <div className="text-left">
-          <h2 className="text-3xl md:text-4xl font-bold animate-move-bg bg-gradient-to-r from-purple-500 via-red-500 to-purple-500 bg-[length:400%] bg-clip-text text-transparent">
+      <section
+        id="projects"
+        className="my-8 sm:my-20 pb-16 sm:pb-32 scroll-mt-24 sm:scroll-mt-32"
+      >
+        <div className="text-left mb-6 sm:mb-8">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white text-shadow-metallic-light dark:text-shadow-metallic-dark">
             Projects
           </h2>
         </div>
-        {PROJECTS.map((item, index) => {
-          return (
-            <div
-              key={item.projectLink}
-              className="hover:shadow-lg focus:shadow-lg mb-5 flex flex-col border border-gray-400 hover:ring-gray-600 hover:ring dark:border-gray-600 dark:hover:ring-gray-300 dark:hover:ring rounded-lg mt-5"
-            >
-              <a href={item.projectLink} target="_blank" rel="noreferrer">
-                <div className="p-4 focus:bg-gray-100 dark:focus:bg-gray-900">
-                  <h3 className="mb-2 text-xl font-semibold tracking-normal dark:text-gray-100">
-                    {item.projectName}
+        <div className="space-y-4 sm:space-y-5">
+          {PROJECTS.map((project, index) => {
+            return (
+              <div
+                key={project.projectLink || `project-${index}`}
+                className="bg-white dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 rounded-xl overflow-hidden p-4 sm:p-6"
+              >
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-3 sm:mb-4">
+                  <h3 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white">
+                    {project.projectName}
                   </h3>
-                  <p className="text-sm md:text-base font-normal text-gray-900 dark:text-gray-300">
-                    {item.projectDescription}
-                  </p>
-                  <ul className="flex flex-wrap md:justify-start text-xs md:text-sm mt-3 font-semibold">
-                    {item.projectTechnologies.map((tech, index) => {
-                      return (
-                        <li key={tech} className="md:ml-1 mr-3">
-                          <i>{tech}</i>
-                        </li>
-                      );
-                    })}
-                  </ul>
                 </div>
-              </a>
-            </div>
-          );
-        })}
-        <div className={"flex flex-col"}>
-          <button
-            className={
-              "align-middle justify-center hover:underline decoration-2"
-            }
+                <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 mb-3 sm:mb-4">
+                  {project.projectDescription}
+                </p>
+                <div className="flex flex-wrap gap-2 sm:gap-3">
+                  {project.projectTechnologies.map((tech) => (
+                    <span
+                      key={tech}
+                      className="inline-flex items-center px-3 py-1 rounded-lg text-sm bg-gray-100 dark:bg-gray-700/50 text-gray-900 dark:text-gray-100"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <div className="flex justify-center mt-8">
+          <a
+            href="https://github.com/shrey333?tab=repositories"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
           >
-            <a
-              href={"https://github.com/shrey333?tab=repositories"}
-              target="_blank"
-              rel="noreferrer"
+            More on GitHub
+            <svg
+              className="w-4 h-4 ml-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              More on GitHub
-            </a>
-          </button>
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              />
+            </svg>
+          </a>
         </div>
       </section>
     </>

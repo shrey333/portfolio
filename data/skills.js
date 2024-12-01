@@ -1,0 +1,65 @@
+export const SKILLS = [
+  {
+    category: "Languages & Frameworks",
+    emoji: "💻",
+    items: [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Django",
+      "FastAPI",
+    ],
+  },
+  {
+    category: "AI & Machine Learning",
+    emoji: "🤖",
+    items: [
+      "PyTorch",
+      "TensorFlow",
+      "Scikit-learn",
+      "LangChain",
+      "Hugging Face",
+      "LLM Fine-tuning",
+      "RAG",
+    ],
+  },
+  {
+    category: "Cloud & DevOps",
+    emoji: "☁️",
+    items: [
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "Terraform",
+      "Linux",
+      "Git",
+    ],
+  },
+  {
+    category: "Databases",
+    emoji: "🗄️",
+    items: [
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "DynamoDB",
+      "Elasticsearch",
+    ],
+  },
+  {
+    category: "Tools & Others",
+    emoji: "🛠️",
+    items: [
+      "REST APIs",
+      "GraphQL",
+      "Agile",
+      "System Design",
+      "Unit Testing",
+      "Microservices",
+    ],
+  },
+];
