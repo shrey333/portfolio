@@ -1,5 +1,4 @@
 import Head from "next/head";
-import NavBar from "../components/navbar";
 import Personal from "../components/personal";
 
 export default function Home() {
@@ -14,7 +13,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <NavBar />
       <section className="max-w-3xl px-4 mt-24 sm:mt-40 mx-auto">
         <Personal />
       </section>
