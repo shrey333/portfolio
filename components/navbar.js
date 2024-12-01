@@ -12,7 +12,7 @@ export default function NavBar() {
   const router = useRouter();
 
   useEffect(() => setMounted(true), []);
-  
+
   // Close menu when route changes
   useEffect(() => {
     setIsMenuOpen(false);
@@ -60,8 +60,8 @@ export default function NavBar() {
 
   return (
     <>
-      <nav className="sticky-nav top-2 sm:!top-4 mt-2 sm:mt-4 rounded-xl sm:rounded-2xl flex justify-between items-center content-center max-w-4xl w-[calc(100%-1rem)] sm:w-full p-2 px-4 mx-auto bg-white/50 dark:bg-gray-900/50 backdrop-blur-xl border border-gray-200 dark:border-gray-800">
-        <motion.div 
+      <nav className="sticky-nav !top-2 sm:!top-4 mt-2 sm:mt-4 rounded-xl sm:rounded-2xl flex justify-between items-center content-center max-w-4xl w-[calc(100%-1rem)] sm:w-full p-2 px-4 mx-auto bg-white/50 dark:bg-gray-900/50 backdrop-blur-xl border border-gray-200 dark:border-gray-800">
+        <motion.div
           className="tracking-tighter text-2xl sm:text-3xl font-black text-gray-900 dark:text-white"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
