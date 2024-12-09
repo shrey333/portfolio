@@ -1,6 +1,8 @@
 import Head from 'next/head';
 
 export function SkillsStructuredData({ skills }) {
+  if (!skills) return null;
+
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
@@ -10,7 +12,7 @@ export function SkillsStructuredData({ skills }) {
       item: {
         '@type': 'Thing',
         name: category.category,
-        description: `${category.category} skills including ${category.items.join(', ')}`,
+        description: `${category.category} skills including ${category.items?.join(', ') || ''}`,
       },
     })),
   };
@@ -26,6 +28,8 @@ export function SkillsStructuredData({ skills }) {
 }
 
 export function ProjectsStructuredData({ projects }) {
+  if (!projects) return null;
+
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
@@ -34,9 +38,9 @@ export function ProjectsStructuredData({ projects }) {
       position: index + 1,
       item: {
         '@type': 'SoftwareSourceCode',
-        name: project.title,
-        description: project.description,
-        programmingLanguage: project.technologies.join(', '),
+        name: project.projectName || '',
+        description: project.description?.[0] || '',
+        programmingLanguage: project.technologies?.join(', ') || '',
         url: project.link || null,
       },
     })),
@@ -53,6 +57,8 @@ export function ProjectsStructuredData({ projects }) {
 }
 
 export function ExperienceStructuredData({ experiences }) {
+  if (!experiences) return null;
+
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
@@ -61,12 +67,12 @@ export function ExperienceStructuredData({ experiences }) {
       position: index + 1,
       item: {
         '@type': 'WorkExperience',
-        jobTitle: exp.title,
-        name: exp.company,
-        description: exp.description,
-        startDate: exp.startDate,
-        endDate: exp.endDate || 'Present',
-        skills: exp.technologies?.join(', '),
+        jobTitle: exp.role || '',
+        name: exp.companyName || '',
+        description: exp.companyDescription?.[0] || '',
+        startDate: exp.duration?.split(' - ')?.[0] || '',
+        endDate: exp.duration?.split(' - ')?.[1] || 'Present',
+        skills: exp.technologies?.join(', ') || '',
       },
     })),
   };
