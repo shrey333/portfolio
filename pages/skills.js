@@ -15,9 +15,10 @@ export default function SkillsPage() {
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
           Skills & Expertise
         </h1>
-        <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-          A comprehensive overview of my technical skills and areas of expertise in software development,
-          artificial intelligence, and cloud technologies.
+        <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 text-justify">
+          A comprehensive overview of my technical skills and areas of expertise
+          in software development, artificial intelligence, and cloud
+          technologies.
         </p>
         <Skills />
       </main>

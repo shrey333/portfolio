@@ -15,7 +15,7 @@ export default function ExperiencePage() {
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
           Professional Experience
         </h1>
-        <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
+        <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 text-justify">
           My professional journey in software engineering, showcasing roles and
           achievements at various organizations where I&rsquo;ve contributed to
           innovative solutions and technological advancement.

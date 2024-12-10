@@ -33,14 +33,14 @@ export default function Personal() {
           </div>
 
           <div className="flex flex-col gap-4 mt-2">
-            <p className="text-gray-600 dark:text-gray-400">
+            <p className="text-gray-600 dark:text-gray-400 text-justify">
               Beyond coding, I&rsquo;m an avid hiker who finds inspiration in
               nature&rsquo;s patterns. When I&rsquo;m not on the trails,
               you&rsquo;ll find me debugging with my curated playlist — because
               every bug fix deserves its own soundtrack. 🎵
             </p>
 
-            <p className="text-gray-600 dark:text-gray-400">
+            <p className="text-gray-600 dark:text-gray-400 text-justify">
               I&rsquo;m passionate about staying at the forefront of technology.
               Whether it&rsquo;s exploring the latest AI breakthroughs, cloud
               architectures, or emerging tech trends, I&rsquo;m always eager to

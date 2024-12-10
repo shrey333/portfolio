@@ -3,7 +3,10 @@ import { EXPERIENCE } from "../data/experience";
 export default function Experience() {
   return (
     <>
-      <section id="experience" className="my-8 sm:my-20 pb-16 sm:pb-32 scroll-mt-24 sm:scroll-mt-32">
+      <section
+        id="experience"
+        className="my-8 sm:my-20 pb-16 sm:pb-32 scroll-mt-24 sm:scroll-mt-32"
+      >
         <div className="text-left mb-6 sm:mb-8">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white text-shadow-metallic-light dark:text-shadow-metallic-dark">
             Experience
@@ -25,7 +28,7 @@ export default function Experience() {
               </div>
               <ul className="space-y-2 sm:space-y-3 text-sm sm:text-base text-gray-700 dark:text-gray-300 mb-3 sm:mb-4">
                 {experience.companyDescription.map((description, index) => (
-                  <li key={index} className="flex items-start">
+                  <li key={index} className="flex items-start text-justify">
                     <span className="mr-2">•</span>
                     {description}
                   </li>

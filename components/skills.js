@@ -3,7 +3,10 @@ import { SKILLS } from "../data/skills";
 export default function Skills() {
   return (
     <>
-      <section id="skills" className="my-8 sm:my-20 pb-16 sm:pb-32 scroll-mt-24 sm:scroll-mt-32">
+      <section
+        id="skills"
+        className="my-8 sm:my-20 pb-16 sm:pb-32 scroll-mt-24 sm:scroll-mt-32"
+      >
         <div className="text-left mb-6 sm:mb-8">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white text-shadow-metallic-light dark:text-shadow-metallic-dark">
             Skills

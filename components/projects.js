@@ -24,7 +24,7 @@ export default function Project() {
                     {project.projectName}
                   </h3>
                 </div>
-                <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 mb-3 sm:mb-4">
+                <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 mb-3 sm:mb-4 text-justify">
                   {project.projectDescription}
                 </p>
                 <div className="flex flex-wrap gap-2 sm:gap-3">

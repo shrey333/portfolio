@@ -15,9 +15,10 @@ export default function ProjectsPage() {
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
           Projects & Applications
         </h1>
-        <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-          A showcase of my software development projects, featuring innovative solutions
-          in artificial intelligence, web development, and cloud computing.
+        <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 text-justify">
+          A showcase of my software development projects, featuring innovative
+          solutions in artificial intelligence, web development, and cloud
+          computing.
         </p>
         <Projects />
       </main>
