@@ -2,11 +2,13 @@ export const EXPERIENCE = [
   {
     companyName: "Neliti Pte. Ltd.",
     companyDescription: [
-      "Developed and automated deployment for distributed systems with Django, Docker, and PostgreSQL, streamlining data flow and reducing bug reports by simplifying testing practices",
-      "Led development as the founding engineer of Neliti Dashboard, utilizing React, Next.js, TailwindCSS, and TypeScript for a responsive and scalable frontend, and Django Rest Framework(DRF) for building a backend",
-      "Improved search efficiency for 12 million users by transitioning data processing from Solr to Elasticsearch, leveraging AWS SQS to enhance search performance by reducing query time",
-      "Enhanced frontend performance of the core product by integrating Memcached and AlpineJS, resulting in a smoother user experience and improved SEO, which increased code readability and future maintainability",
-      "Implemented Kubernetes infrastructure with Terraform, AWS EKS, and Fargate, automating CI/CD with GitHub Actions and Ansible, reducing errors and cutting deployment time by 2 hrs per release",
+      "As the founding engineer, led the development of Neliti Dashboard, building a responsive and scalable frontend using React, Redux, TailwindCSS, and TypeScript, coupled with a robust Django Rest Framework (DRF) backend",
+      "Developed and automated a Docker-based deployment pipeline for a distributed Django and PostgreSQL system, streamlining the development workflow and reducing bug reports by 23% through simplified testing practices",
+      "Improved search efficiency for 12 million users by transitioning data processing from Solr to Elasticsearch, enhancing search performance by reducing query time",
+      "Led the integration of Xendit and Square payment gateways, collaborating closely with the CTO to define technical requirements, align with business objectives, and guide the implementation process",
+      "Automated web crawling of journals, integrating DOI registration through Crossref API and domain setup using AWS Route 53 via scheduled CRON jobs, decreasing average registration time from 2 hours to under 20 minutes",
+      "Architected end-to-end CI/CD pipeline using GitHub Actions, Docker, and AWS Fargate/EKS, reducing deployment time from 1 hour to 14 minutes and achieving 99.9% application availability",
+      "Designed and implemented a token-based pricing model and a role-based access control (RBAC) system, collaborating with the team on pricing strategy, user needs, and security requirements",
       "Built an internal page builder to streamline content creation and launched Neliti’s ad platform, increasing annual ad revenue by over $100K",
     ],
     companyLink: "https://www.neliti.com/",
@@ -30,7 +32,8 @@ export const EXPERIENCE = [
   {
     companyName: "Suvit Fintech Pvt. Ltd.",
     companyDescription: [
-      "Automated data entry workflows for accounting software using Node.js, React, DynamoDB, and GraphQL, which reduced manual data entry efforts and processed over 10,000 rows in under two minutes",
+      "Collaborated with a junior developer to automate accounting data entry using Node.js, React, DynamoDB, and GraphQL, achieving high-throughput processing (10,000+ rows in less than 2 minutes) and reducing manual effort",
+      "Improved React Table rendering speed by 27% by leveraging React DevTools Profiler to identify bottlenecks, applying useMemo and useCallback for memorization, and optimizing cell rendering logic",
       "Enhanced real-time updates and team communication by integrating Socket.io and Intercom, decreasing loading times and providing a more responsive user experience",
       "Improved UI responsiveness by 20% through Redux for state management and caching API responses, reducing load on the server and supporting a seamless user experience",
       "Developed a scalable GraphQL API with Node.js and Relay, decreasing response times and bandwidth usage, and collaborated with backend teams to optimize data retrieval strategies",

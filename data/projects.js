@@ -1,5 +1,17 @@
 export const PROJECTS = [
   {
+    projectName: "Multi-Agent Review Analysis for Restaurant Scoring",
+    projectDescription:
+      "Built a multi-agent workflow using AutoGen and GPT-4o-mini to extract restaurant ratings from unstructured text reviews, processing over 10,000 reviews with a 96.67% accuracy rate in identifying food and service quality scores",
+    projectTechnologies: ["AutoGen", "GPT-4o-mini"],
+  },
+  {
+    projectName: "Context-aware music recommender",
+    projectDescription:
+      "Developed a context-aware music recommender system using hybrid collaborative filtering, incorporating real-time contextual data (e.g., driving style, mood) to improve the accuracy and relevance of music recommendations",
+    projectTechnologies: ["Matrix Factorization", "Cosine Similarity"],
+  },
+  {
     projectName:
       "Tuning Large Language Model for Math Problem Solving (GSM8K Dataset)",
     projectDescription:
