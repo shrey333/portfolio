@@ -1,29 +1,35 @@
 export const PROJECTS = [
   {
+    projectName: "NotebookLM",
+    projectDescription:
+      "Developed a multi-capability Q&A document intelligence agent with Python/FastAPI, React, LangChain, Pinecone, Redis, and Google Gemini 2.0 Flash, enabling advanced cross-document queries, automated source citations, and a scalable agentic RAG design",
+    projectTechnologies: ["Python", "FastAPI", "React", "LangChain", "Pinecone", "Redis", "Google Gemini"],
+  },
+  {
     projectName: "Multi-Agent Review Analysis for Restaurant Scoring",
     projectDescription:
       "Built a multi-agent workflow using AutoGen and GPT-4o-mini to extract restaurant ratings from unstructured text reviews, processing over 10,000 reviews with a 96.67% accuracy rate in identifying food and service quality scores",
-    projectTechnologies: ["AutoGen", "GPT-4o-mini"],
+    projectTechnologies: ["AutoGen", "GPT-4o-mini", "Python"],
   },
   {
-    projectName: "Context-aware music recommender",
+    projectName: "Tuning Large Language Model for GSM8K Dataset",
     projectDescription:
-      "Developed a context-aware music recommender system using hybrid collaborative filtering, incorporating real-time contextual data (e.g., driving style, mood) to improve the accuracy and relevance of music recommendations",
-    projectTechnologies: ["Matrix Factorization", "Cosine Similarity"],
-  },
-  {
-    projectName:
-      "Tuning Large Language Model for Math Problem Solving (GSM8K Dataset)",
-    projectDescription:
-      "Fine-tuned the ‘meta-llama/Llama-2-7b-hf’ model on the GSM8K dataset, achieving 94.24% test accuracy, utilizing NVIDIA A100 GPUs with CUDA to reduce training time from over 10 hours to under 30 minutes;Tracked training progress using exact match metrics and reductions in train/validation loss, visualizing improvements through Weights & Biases (WandB)",
+      "Achieved 94.24% test accuracy fine-tuning Llama-2-7b-hf on GSM8K utilizing QLoRA and PEFT with A100 GPUs, cutting training time from 10+ hours to under 30 minutes; used WandB for monitoring",
     projectTechnologies: [
       "HPC",
       "Llama",
       "WandB",
       "Huggingface",
       "Python",
-      "Sbatch",
+      "QLoRA",
+      "PEFT",
     ],
+  },
+  {
+    projectName: "Elastic Face Recognition Application",
+    projectDescription:
+      "Developed a scalable face recognition application using Python/FastAPI on AWS, leveraging EC2, S3, CloudWatch, and Elastic IP to optimize resources and handle 1000 concurrent requests with deep learning models",
+    projectTechnologies: ["Python", "FastAPI", "AWS EC2", "AWS S3", "AWS CloudWatch", "Deep Learning"],
   },
   {
     projectName: "AWS Serverless File Processing System",
